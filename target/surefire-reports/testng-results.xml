@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-29T16:05:57 PKT" name="Suite" finished-at="2023-08-29T16:06:50 PKT" duration-ms="52277">
+    <groups>
+      <group name="Smoke">
+        <method signature="ECommerce_TestCase_01.fillForm(java.util.HashMap)[pri:0, instance:org.osamaikhlas.ECommerce_TestCase_01@6f63b475]" name="fillForm" class="org.osamaikhlas.ECommerce_TestCase_01"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-08-29T16:05:57 PKT" name="End to End Ecommerce Test" finished-at="2023-08-29T16:06:49 PKT" duration-ms="51677">
+      <class name="org.osamaikhlas.ECommerce_TestCase_01">
+        <test-method is-config="true" signature="ConfigureAppium()[pri:0, instance:org.osamaikhlas.ECommerce_TestCase_01@6f63b475]" started-at="2023-08-29T16:05:57 PKT" name="ConfigureAppium" finished-at="2023-08-29T16:06:20 PKT" duration-ms="22722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfigureAppium -->
+        <test-method signature="fillForm(java.util.HashMap)[pri:0, instance:org.osamaikhlas.ECommerce_TestCase_01@6f63b475]" started-at="2023-08-29T16:06:20 PKT" name="fillForm" data-provider="getData" finished-at="2023-08-29T16:06:48 PKT" duration-ms="27978" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{name=Osama Ikhlas, country=Argentina, gender=male}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.osamaikhlas.ECommerce_TestCase_01@6f63b475]" started-at="2023-08-29T16:06:48 PKT" name="tearDown" finished-at="2023-08-29T16:06:49 PKT" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.osamaikhlas.ECommerce_TestCase_01 -->
+    </test> <!-- End to End Ecommerce Test -->
+    <test started-at="2023-08-29T16:06:50 PKT" name="Error Validation Test" finished-at="2023-08-29T16:06:50 PKT" duration-ms="1">
+    </test> <!-- Error Validation Test -->
+    <test started-at="2023-08-29T16:06:50 PKT" name="IOS App Tests" finished-at="2023-08-29T16:06:50 PKT" duration-ms="2">
+    </test> <!-- IOS App Tests -->
+  </suite> <!-- Suite -->
+</testng-results>
