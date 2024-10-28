@@ -6,11 +6,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.testng.Assert;
 
+
 import io.appium.java_client.ios.IOSDriver;
 
 public class IOSGesture extends AppiumUtils {
 	
 IOSDriver driver;
+
 	
 	public IOSGesture(IOSDriver driver) {
 		this.driver = driver;

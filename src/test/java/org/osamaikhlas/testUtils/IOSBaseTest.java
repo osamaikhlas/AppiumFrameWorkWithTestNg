@@ -2,6 +2,7 @@ package org.osamaikhlas.testUtils;
 
 import org.testng.annotations.BeforeClass;
 
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.URL;
@@ -20,6 +21,8 @@ public class IOSBaseTest extends AppiumUtils {
 	public IOSDriver driver;
 	public AppiumServiceBuilder serviceBuilder;
 	public HomePage homePage;
+	
+	
 	
 	@BeforeClass
 	public void ConfigureAppium() throws IOException {
@@ -49,9 +52,9 @@ public class IOSBaseTest extends AppiumUtils {
 	
 	@AfterClass
 	public void tearDown() {
-		
 		driver.quit();	
 		serviceBuilder.build().stop();
+		closeEyes();
 	}
 
 }

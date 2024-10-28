@@ -24,14 +24,21 @@
     	<artifactId>extentreports</artifactId>
     	<version>5.1.0</version>
 	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.applitools/eyes-selenium-java5 -->
+<dependency>
+    <groupId>com.applitools</groupId>
+    <artifactId>eyes-appium-java5</artifactId>
+    <version>RELEASE</version>
+</dependency>
    
     <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
-	<dependency>
-    	<groupId>io.appium</groupId>
-    	<artifactId>java-client</artifactId>
-    	<version>8.5.1</version>
-    	<scope>compile</scope>
-	</dependency>
+<dependency>
+    <groupId>io.appium</groupId>
+    <artifactId>java-client</artifactId>
+    <version>9.3.0</version>
+    <scope>compile</scope>
+</dependency>
+
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
 	<dependency>
     	<groupId>org.testng</groupId>
@@ -40,13 +47,14 @@
     	<scope>compile</scope>
 	</dependency>
 
-<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-support -->
-	<dependency>
-    	<groupId>org.seleniumhq.selenium</groupId>
-  	 	<artifactId>selenium-support</artifactId>
-   	 	<version>4.0.0-alpha-7</version>
-   	 	<scope>compile</scope>
-	</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.16.1</version>
+    <scope>compile</scope>
+
+</dependency>
 
 	
 	<dependency>

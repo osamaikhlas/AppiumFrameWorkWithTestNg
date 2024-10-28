@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="org.osamaikhlas.testUtils.Listeners"/>
   </listeners>
-  <test thread-count="5" name="End to End Ecommerce Test(failed)" verbose="0">
+  <test thread-count="5" name="IOS App Tests(failed)" verbose="0">
     <classes>
-      <class name="org.osamaikhlas.ECommerce_TestCase_01">
+      <class name="org.osamaikhlas.IOSBasics">
         <methods>
-          <include name="ConfigureAppium"/>
           <include name="tearDown"/>
-          <include name="fillForm" invocation-numbers="0"/>
+          <include name="IOSBasicTests"/>
+          <include name="ConfigureAppium"/>
         </methods>
-      </class> <!-- org.osamaikhlas.ECommerce_TestCase_01 -->
+      </class> <!-- org.osamaikhlas.IOSBasics -->
     </classes>
-  </test> <!-- End to End Ecommerce Test(failed) -->
+  </test> <!-- IOS App Tests(failed) -->
 </suite> <!-- Failed suite [Suite] -->

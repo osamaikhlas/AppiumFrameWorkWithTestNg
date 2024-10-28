@@ -81,15 +81,12 @@ public class FormPage extends AndroidGesture {
 		Assert.assertTrue(toastMessageErrorCount.size()<1);
 	}
 	
-	@SuppressWarnings("deprecation")
 	public void setActivity() {
 		Activity activity = new Activity("com.androidsample.generalstore","com.androidsample.generalstore.MainActivity");
 		activity.setAppWaitPackage("com.androidsample.generalstore");
 	    activity.setAppWaitActivity("com.androidsample.generalstore.MainActivity");
-		driver.startActivity(activity);
+		//driver.startActivity(activity);
 	}
-	
-	
-	
+		
 
 }
