@@ -4,15 +4,15 @@
   <listeners>
     <listener class-name="org.osamaikhlas.testUtils.Listeners"/>
   </listeners>
-  <test thread-count="5" name="Error Validation Test(failed)">
+  <test thread-count="5" name="End to End Ecommerce Test(failed)">
     <classes>
-      <class name="org.osamaikhlas.ECommerce_TestCase_02">
+      <class name="org.osamaikhlas.ECommerce_TestCase_01">
         <methods>
           <include name="ConfigureAppium"/>
           <include name="tearDown"/>
-          <include name="fillFormNegativeFlow"/>
+          <include name="fillForm"/>
         </methods>
-      </class> <!-- org.osamaikhlas.ECommerce_TestCase_02 -->
+      </class> <!-- org.osamaikhlas.ECommerce_TestCase_01 -->
     </classes>
-  </test> <!-- Error Validation Test(failed) -->
+  </test> <!-- End to End Ecommerce Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

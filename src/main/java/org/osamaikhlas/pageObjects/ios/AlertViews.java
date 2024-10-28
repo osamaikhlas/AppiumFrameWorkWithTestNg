@@ -50,7 +50,7 @@ public class AlertViews extends IOSGesture {
 	}
 	public void okConfirmMessage() {	
 		submitBtn.click();
-	}
+}
 
 	
 
