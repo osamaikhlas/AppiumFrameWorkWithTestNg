@@ -45,23 +45,19 @@ public class CartPage extends AndroidGesture {
 		
 	public Double calculateTotalAmount() throws InterruptedException {
 		int productCount = productPrices.size();
-		Double totalsum =0.0;
-		
-		for(int i=0; i<productCount; i++) {
-			String amountString = productPrices.get(i).getText();
+		double totalsum =0.0;
+        for (WebElement productPrice : productPrices) {
+			String amountString = productPrice.getText();
 			Double price = getFormattedAmount(amountString);
 			totalsum = totalsum + price;
 		}
-		
 		return totalsum;
 	}
 	
-	public void verifyTotalSum(Double totalSum) {
-		String displaySum = totalAmountBill.getText();
-		Double displayFormattedSum=getFormattedAmount(displaySum);
-		Assert.assertEquals(totalSum, displayFormattedSum); 
-		
-	}
+    public void verifyTotalSum(Double totalSum) {
+        Double displayFormattedSum = getFormattedAmount(totalAmountBill.getText());
+        Assert.assertEquals(totalSum, displayFormattedSum);
+    }
 	
 	public void checkTermsAndCondition() {
 		longPressAction(termsConditionButton);

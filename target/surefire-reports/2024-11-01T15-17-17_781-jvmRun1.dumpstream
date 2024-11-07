@@ -1,0 +1,9 @@
+# Created at 2024-11-01T15:17:49.320
+The session identified by 68126b29-9955-4224-9a64-cfb7f13a6833 is not known
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.1', java.version: '11.0.18'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [96e23a8a-9a80-4bad-a09b-4f1edd660166, screenshot {}]
+Capabilities {appium:app: /Users/oikhlas/eclipse-work..., appium:appPackage: com.androidsample.generalstore, appium:automationName: UIAutomator2, appium:chromedriverExecutable: //Users//oikhlas//Downloads..., appium:databaseEnabled: false, appium:desired: {app: /Users/oikhlas/eclipse-work..., automationName: UIAutomator2, chromedriverExecutable: //Users//oikhlas//Downloads..., deviceName: Osamaemulator, platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x2880, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3.5, appium:platformVersion: 14, appium:statBarHeight: 98, appium:takesScreenshot: true, appium:viewportRect: {height: 2782, left: 0, top: 98, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 96e23a8a-9a80-4bad-a09b-4f1edd660166
+
