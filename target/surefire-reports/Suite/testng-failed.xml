@@ -4,15 +4,27 @@
   <listeners>
     <listener class-name="org.osamaikhlas.testUtils.Listeners"/>
   </listeners>
-  <test thread-count="5" name="IOS App Tests(failed)" verbose="0">
+  <test thread-count="5" name="End to End Ecommerce Test(failed)" verbose="0">
     <classes>
-      <class name="org.osamaikhlas.IOSBasics">
+      <class name="org.osamaikhlas.ECommerce_TestCase_01">
         <methods>
-          <include name="tearDown"/>
-          <include name="IOSBasicTests"/>
           <include name="ConfigureAppium"/>
+          <include name="tearDown"/>
+          <include name="fillForm" invocation-numbers="0"/>
         </methods>
-      </class> <!-- org.osamaikhlas.IOSBasics -->
+      </class> <!-- org.osamaikhlas.ECommerce_TestCase_01 -->
     </classes>
-  </test> <!-- IOS App Tests(failed) -->
+  </test> <!-- End to End Ecommerce Test(failed) -->
+  <test thread-count="5" name="Error Validation Test(failed)" verbose="0">
+    <classes>
+      <class name="org.osamaikhlas.ECommerce_TestCase_02">
+        <methods>
+          <include name="ConfigureAppium"/>
+          <include name="fillFormPostiveFlow"/>
+          <include name="tearDown"/>
+          <include name="fillFormNegativeFlow"/>
+        </methods>
+      </class> <!-- org.osamaikhlas.ECommerce_TestCase_02 -->
+    </classes>
+  </test> <!-- Error Validation Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
